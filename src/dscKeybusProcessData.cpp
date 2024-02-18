@@ -34,6 +34,7 @@
 void dscKeybusInterface::resetStatus() {
   statusChanged = true;
   keybusChanged = true;
+  keybusConnected = false;
   troubleChanged = true;
   powerChanged = true;
   batteryChanged = true;
